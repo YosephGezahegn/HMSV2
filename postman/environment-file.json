@@ -1,5 +1,5 @@
 {
-  "id": "fae4c84d-5a9a-45b4-a795-e5d707fc9a9b",
+  "id": "67a03db5-66cc-46b3-93f2-503ede09e0e0",
   "name": "byad_s_application5_environment",
   "values": [
     {
@@ -14,6 +14,6 @@
     }
   ],
   "_postman_variable_scope": "environment",
-  "_postman_exported_at": "2024-11-19T15:55:21.166Z",
+  "_postman_exported_at": "2024-11-19T16:54:47.941Z",
   "_postman_exported_using": "Postman"
 }
