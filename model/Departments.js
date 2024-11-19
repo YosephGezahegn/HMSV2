@@ -31,7 +31,7 @@ let Departments = sequelize.define('Departments',{
      
   AccreditationStatus:{
     type:DataTypes.ENUM,
-    values:convertObjectToEnum(PatientsEnum.HMS.AccreditationStatus)
+    values:convertObjectToEnum(PatientsEnum.AccreditationStatus)
   },
   EstablishedDate:{ type:DataTypes.DATEONLY },
   LastRenovationDate:{ type:DataTypes.DATEONLY },
