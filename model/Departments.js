@@ -7,6 +7,15 @@ const { DataTypes } = require('sequelize');
 const sequelize = require('../config/dbConnection');
 const sequelizePaginate = require('sequelize-paginate');
 const sequelizeTransforms = require('sequelize-transforms');
+/**
+ * Departments.js
+ * @description :: sequelize model of database table Departments
+ */
+
+const { DataTypes } = require('sequelize');
+const sequelize = require('../config/dbConnection');
+const sequelizePaginate = require('sequelize-paginate');
+const sequelizeTransforms = require('sequelize-transforms');
 const { convertObjectToEnum } = require('../utils/common');
 const PatientsEnum = require('../constants/Patients');
 let Departments = sequelize.define('Departments',{
